@@ -1,0 +1,42 @@
+
+/* This applies to all elements as notated by "*" which is known as  a "universal selector" in CSS */
+* {
+    /* this removes any default padding and margins that HTML set by default */
+    /* this makes sure that defaults are not conflicting with our css stylings */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    /* Padding 20pv Top/Bottom and 35px Left/Right */
+        padding: 20px 35px;
+        background-color: #39a8b2;
+        }
+
+header h1{
+        font-weight: bold;
+        font-size: 36px;
+        color: #fce138;
+        margin: 0;
+        display: inline;
+    }
+
+header a {
+    text-decoration: none;
+    color: #fce138;
+}
+
+header nav {
+    float: right;
+    margin: 7px 0;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+}
