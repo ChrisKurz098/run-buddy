@@ -123,3 +123,31 @@ margin-bottom: 15px;
       font-size: 16px; 
   }
 /* HERO SECTION END */
+
+/*What We Do Section */
+
+.intro {
+    /* remember that this is a parent to everything containd in .intro so all children will have this alignment applied to them*/
+    text-align: center;
+
+}
+
+.intro h2 {
+    display: inline-block;
+    font-size: 55px;
+    color:#024e76;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    border-bottom: 3px solid #fce138;
+}
+
+.intro p {
+ 
+    line-height: 1.7;
+    color: #39a6b2;
+    width: 80%; 
+    font-size: 20px;
+    margin: 0 auto; /* this re-centers block items with a width less than 100%. it sets tob/bottom to 0 and left/right to auto*/
+    
+    
+}
