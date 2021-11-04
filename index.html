@@ -31,9 +31,44 @@
             </nav>
         </header>
         <!-- hero/jumbotron -->
-        <section>
+        <section class="hero">
+            <div class="hero-form">
+                <h3>Get Started Today</h3>
+                <p>Fill out this form and one of our trainers will schedule a consult</p>
+                <!--Form and Input starts here-->
+                <form>
+                    <!--Lables will be read out loud when the assosicated input feild is in focus while using a screen reader-->
+                    <lable for = "name">Enter Full Name: </lable> 
+                    <!--The "for" attribute links the lable to the corrosponding input witth the same "id"-->
+                    <input type = "text" placeholder= "Your Name" name= "name" id= "name" class="form-input" />
 
+                    <lable for = "email">Enter Email Address Here: </lable>
+                    <input type = "email" placeholder = "Email Address" name= "email" id= "email" class="form-input" />
+
+                    <lable for = "phone">Enter a Telephone Number: </lable>
+                    <input type = "tel" placeholder = "Phone Number" name = "phone" id = "phone" class="form-input" /> 
+                    <!--Trainer Confirm radio buittons-->
+                    <p>
+                        Have you worked with a tyrainer before?
+                        <input type = "radio" name = "trainer-confirm" id = "trainer-yes" />
+                        <lable for ="traner-yes">Yes</lable>
+
+                        <input type = "radio" name = "trainer-confirm" id = "trainer-no" />
+                        <lable for ="traner-no">No</lable>
+                    </p>
+                    <!-- Confirm Age checkbox-->
+                    <p>
+                        <lable for="age-confirm">I acknowledge that I am at least 18 years of age </lable>
+                        <input type="checkbox" name="age-confirm" id="age-confirm" />
+                    </p>
+                    <!--Submit Button-->
+                    <button type:"submit">
+                        Get Running!
+                    </button>
+                </form>
+            </div>
         </section>
+        <!--End Hero-->
 
         <!-- What We Do Section-->
         <section>

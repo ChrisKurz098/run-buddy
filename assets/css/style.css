@@ -9,13 +9,13 @@
 }
 
 body {
-    /* more on this crazy alphanumerical value in a minute! */
+
     color: #39a6b2;
     font-family: Helvetica, Arial, sans-serif;
   }
 
 header {
-    /* Padding 20pv Top/Bottom and 35px Left/Right */
+    /* Padding 20px Top/Bottom and 35px Left/Right */
         padding: 20px 35px;
         background-color: #39a8b2;
         }
@@ -70,3 +70,56 @@ footer div {
 footer a {
     color: #024e76;
 }
+
+/*hero section*/
+.hero {
+    padding: 60px;
+    background-image: url("../images/hero-bg.jpg");
+    height: 600px;
+    background-size: cover; /* cover makes the bg image fit the specified height and width or "cover" the entire feild */
+    background-position: center;
+    position: relative; /* This is needed so that the children elements position is relitive to the paretent */
+}
+
+.hero-form {
+    background-color: #fce138;
+    padding: 20px;
+    width: 500px;
+    color: #024e76;
+    border: solid #024e76 3px;
+    position: absolute;
+    bottom: 120px;
+    right: 140px;
+}
+
+.hero h3 {
+    margin: 0px;
+    font-size: 200%;
+}
+
+.hero-form p{
+    margin: 5px 0 15px 0;
+}
+
+.form-input {
+font-size:16px;
+border: 1px solid #024e76;
+display: block;
+color:#024e76;
+width: 100%;
+padding: 7px 15px;
+margin-bottom: 15px;
+}
+
+.hero-form label {
+    margin: 0 5px;
+  }
+
+  .hero-form button {
+      background:#024e76;
+      color:#fce138;
+      border:none;
+      padding: 10px 20px;
+      font-size: 16px; 
+  }
+/* HERO SECTION END */
